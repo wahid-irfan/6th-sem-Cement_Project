@@ -1,0 +1,187 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0adc0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style for the heading */
+h1 {
+    color: #e9e6e6;
+    margin-top: 20px;
+}
+
+/* Style for the result paragraph */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for the strong element within the paragraph */
+strong {
+    color: #c7ced6; /* Blue color for the "Predicted Value:" text */
+}
+
+@media (max-width: 600px) {
+    form {
+        max-width: 90%;
+    }
+}
+nav{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(4, 57, 107, 0.712);
+    box-shadow: 5px 5px 30px rgba(231, 226, 226, 0.87);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 60px;
+    margin: 2vh;
+    margin-left: 5%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 6vh;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    font-weight: 500;   
+    text-decoration: none;
+    transition: ease 0.40s;
+}
+
+.navbar a:hover,.navbar a.active{
+    background: white;
+    color: black;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.footer{
+    margin-top: 80px;
+    background-color: rgb(21, 74, 74);
+}
+
+.foot{
+    padding: 20px 0;
+}
+
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.footlinks h4{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.footlinks h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    left: 0;
+    bottom: -7px;
+    background: white;
+}
+
+.footlinks ul li{
+    margin-bottom: 15px;
+}
+
+.footlinks ul li a{
+    font-size: 17px;
+    color: #dddddd;
+    display: block;
+    transition: ease 0.30s;
+}
+
+.footlinks ul li a:hover{
+    transform: translate(6px);
+    color: white;
+}
+.social-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    font-size: 30px;
+    color: #101010;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.30s;
+}
+
+.social-icons a:hover{
+    transform: scale(1.2);
+}
+.social a{
+    font-size: 25px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    color: rgb(21, 74, 74);
+    background-color: #fcf7f7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease 0.30s;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+}
+
+.end{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+
+.end p{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+.footlinks .social a {
+    text-decoration: none;
+}
